@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Montserrat;
-    src: url(Montserrat/Montserrat-VariableFont_wght.ttf);
+    font-family: Barlow;
+    src: url(Barlow/Barlow-Regular.ttf);
 }
 
 body{
@@ -10,9 +10,20 @@ height: 725px
 
 }
 
+#nova-tarefa{
+    font-family: Barlow;
+    background-color: #ffffff7e;
+}
+.tarefa{
+    font-size:  25px;
+  
+    margin-left: 250px;
+}
+
+
 .coluna{
-    background-color: rgb(254, 254, 254);
-    border: 1px solid #ddd;
+    background-color: rgba(254, 254, 254, 0.395);
+    border: 1px solid #dddddd46;
     border-radius: 5px;
     margin: 15px;
     padding: 10px;
@@ -23,7 +34,12 @@ height: 725px
 }
 
 h2{
-    font-family: Montserrat;
+    font-family: Barlow;
+ 
+    text-align: center;
+}
+h1{
+    font-family: Barlow;
     text-align: center;
 }
 
