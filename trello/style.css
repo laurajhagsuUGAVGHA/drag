@@ -5,22 +5,23 @@
 
 body{
     background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
-    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 height: 725px
 
 }
 
-#nova-tarefa{
+input{
     font-family: Barlow;
     background-color: #ffffff7e;
 }
-.tarefa{
-    font-size:  25px;
-  
-    margin-left: 250px;
+
+#adicionar-tarefa{
+font-family: Barlow;
+font-size: 20px;
+
 }
-
-
 .coluna{
     background-color: rgba(254, 254, 254, 0.395);
     border: 1px solid #dddddd46;
